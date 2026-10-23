@@ -1,0 +1,12 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# OpenStack credentials (Application Credential downloads)
+clouds.yaml
+secure.yaml
+*-openrc.sh
+
+.claude/
